@@ -1,0 +1,39 @@
+.header {
+    padding: 64px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav__item + .nav__item {
+    margin-left: 42px;
+}
+
+.nav__link {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
+
+.active__link {
+    color: #5FB4A2;
+}
+
+// @media only screen and (max-width: 1280px)
