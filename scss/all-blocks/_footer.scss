@@ -1,0 +1,134 @@
+.footer {
+    background-color: #33323D;
+}
+
+
+.footer__wrapper {
+    padding: 33px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__wrapper .nav {
+    margin-left: 100px;
+}
+
+.footer__wrapper .nav__link {
+    color: #ffffff;
+}
+
+.footer__wrapper .active_link {
+    color: #5FB4A2;
+}
+
+.footer__wrapper .nav__link:hover {
+    color: #5FB4A2;
+    transition: 0.2s ease;
+}
+
+.social__wrapper {
+    display: inline-block;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90px;
+    justify-content: space-between;
+}
+
+.fab.fa-github, .fab.fa-linkedin, .fab.fa-twitter {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.fab.fa-github:hover, .fab.fa-linkedin:hover, .fab.fa-twitter:hover {
+    color: #5FB4A2;
+}
+
+.instagram__link, .facebook__link, .twitter__link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 965px) {
+    .footer, .footer__wrapper {
+        max-width: 100%;
+    }
+
+    .footer__wrapper .nav {
+        margin-left: 80px;
+    }
+
+    .footer .nav {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .footer__wrapper .nav {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .footer__wrapper .nav {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer__wrapper .nav {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .footer__wrapper {
+        padding: 54px;
+    }
+    .footer__wrapper .logo__link {
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .footer__wrapper .nav {
+        margin-left: 0px;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 65px;
+    }
+
+    .footer__wrapper .nav__list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__wrapper .social__wrapper {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .footer__wrapper .nav__item {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer__wrapper .nav__item + .nav__item {
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .footer {
+        position: relative;
+        top: 257px;
+    }
+}
